@@ -8,7 +8,7 @@
                     <div class="box-value">
                         <p class="conteiner-banner__number">Количество человек в компании:<span id="people-val"> 13 чел.</span></p>
                         <input type="range" class="range range-g-1" id="people" min="1" max="25" step="1" />
-                        <p class="conteiner-banner__number">Количество документов на 1 сотрудника в месяц:<span id="thing-val"> 30 шт.</span></p>
+                        <p class="conteiner-banner__number">Количество документов в месяц:<span id="thing-val"> 30 шт.</span></p>
                         <input type="range" class="range range-g-1" id="thing" min="1" max="60" step="1" />
                     </div>
                 </div>
@@ -158,22 +158,7 @@
             </div>
         </div>
     </div>
-    <div class="form-php">
-        <div class="w-main anim">
-            <p class="h2-title">Вы молодая компания-стартап? Хотите подключиться?</p>
-            <ul class="form-php_list">
-                <li><input class="form-php__input" type="text" placeholder="Название компании"></li>
-                <li><input class="form-php__input" type="tel" placeholder="Введите Ваш телефон"></li>
-                <li><input class="form-php__input" type="text" placeholder="Введите Ваше ФИО"></li>
-                <li><a href="javascript:" class="login form-php_btn">Перезвоните мне</a></li>
-            </ul>
-            
-            <div class="form-php_text">
-                <p>Звоните на <a href="#" target="_blank">8 800 200 30 12</a> или <a href="#" target="_blank">пишите в телеграм</a></p>
-                <p>Расскажем всё о Кот-Учете, посчитаем стоимость, подключим.</p>
-            </div>
-        </div>
-    </div>
+    #embed("blocks/action")
     <div class="page-promo">
         <div class="w-main">
             <p class="h2-title">Специальные предложения<span> Компании</span></p>
@@ -200,6 +185,8 @@
             </div>
         </div>
     </div>
+    
+    #embed("common/footer")
     
 </div><!-- /.container -->
 <!-- Modal -->

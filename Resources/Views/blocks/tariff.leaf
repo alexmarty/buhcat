@@ -1,0 +1,35 @@
+<div class="page6">
+        <div class="w-main anim">
+            <p class="h2-title">Тарифы <span>нашей компании</span></p>
+            <p class="description-after">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <div class="table-tarif">
+                <div class="cell-tarif">
+                    <div>
+                        <p class="cell-tarif_name">Тарифный план</p>
+                        <p class="cell-tarif_name">Минимальный</p>
+                        <p class="price">1500 <span>P</span></p>
+                        <p class="cell-tarif_description">Computer manufacturer Lenovo is in hot water this week after pre-installing. software that tracks your</p>
+                        <a class="btn create-btn check-btn" href="cost-services.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="cell-tarif cell-tarif_center">
+                    <div>
+                        <p class="cell-tarif_name">Тарифный план</p>
+                        <p class="cell-tarif_name">Стандарт пакет</p>
+                        <p class="price">3500 <span>P</span></p>
+                        <p class="cell-tarif_description">Computer manufacturer Lenovo is in hot water this week after pre-installing. software that tracks your</p>
+                        <a class="btn create-btn check-btn" href="cost-services.html">Подробнее</a>
+                    </div>
+                </div>
+                <div class="cell-tarif">
+                    <div>
+                        <p class="cell-tarif_name">Тарифный план</p>
+                        <p class="cell-tarif_name">Максимальный</p>
+                        <p class="price">5500 <span>P</span></p>
+                        <p class="cell-tarif_description">Computer manufacturer Lenovo is in hot water this week after pre-installing. software that tracks your</p>
+                        <a class="btn create-btn check-btn" href="cost-services.html">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

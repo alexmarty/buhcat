@@ -1,0 +1,15 @@
+<div class="form-php">
+        <div class="w-main anim">
+            <p class="h2-title">Есть вопросы? Хотите подключиться?</p>
+            <ul class="form-php_list">
+                <li><input class="form-php__input" type="tel" placeholder="Введите Ваш телефон"></li>
+                <li><input class="form-php__input" type="text" placeholder="Введите Ваше ФИО"></li>
+                <li><a href="javascript:" class="login form-php_btn">Перезвоните мне</a></li>
+            </ul>
+            
+            <div class="form-php_text">
+                <p>Или звоните на <a href="tel:+79168893550"> 12345677</a></p>
+                <p>Расскажем всё о Кот-Учете, посчитаем стоимость, подключим.</p>
+            </div>
+        </div>
+    </div>

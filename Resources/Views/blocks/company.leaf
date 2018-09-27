@@ -1,0 +1,40 @@
+<div class="page1">
+        <div class="w-main anim">
+            <p class="h2-title">Компания <span>Кот-Учет</span></p>
+            <p class="description-after">
+            Наша задача — освободить вас от ведения бухгалтерии и ответственности за нее. Примем дела в любом состоянии и на любом этапе развития компании. Приведем базу 1С в порядок. Поставим бухучет с нуля. Вы занимаетесь бизнесом, мы — вашей бухгалтерией. </p>
+            <div class="block-company">
+                <div class="row row-company">
+                    <div class="col-md-3 col-xs-6">
+                        <img class="row-company__img" src="images/icon-person.svg" alt="Icon">
+                            <dl>
+                                <dt>Только профессионалы</dt>
+                                <dd>Все наши главные бухгалтера имеют сертификат «ПРОФ.БУХГАЛТЕР» и проходят ежегодное обучение и сертификацию.</dd>
+                            </dl>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img class="row-company__img" src="images/icon-time.svg" alt="Icon">
+                            <dl>
+                                <dt>Отчет всегда в срок</dt>
+                                <dd>Работая онлайн, мы не требуем от клиентов терять время на поездки к нам в офис. А значит, ваши отчеты всегда сдаются вовремя. </dd>
+                            </dl>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img class="row-company__img" src="images/icon-money.svg" alt="Icon">
+                            <dl>
+                                <dt>Доступные цены</dt>
+                                <dd>Предоставляя качественные услуги, мы не устанавливаем на них заоблачные тарифы. </dd>
+                            </dl>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img class="row-company__img" src="images/icon-sun.svg" alt="Icon">
+                            <dl>
+                                <dt>Открытость </dt>
+                                <dd>У вас всегда будет доступ к базе 1С и системе сдачи отчетности. Все вопросы решаются напрямую с главным бухгалтером. </dd>
+                            </dl>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>

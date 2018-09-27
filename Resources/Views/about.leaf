@@ -1,5 +1,4 @@
 #set("body") {
-<div class="container-2">
     <div class="conteiner-banner conteiner-banner_company">
         <div class="w-main">
             <div class="row row-banner row-post">
@@ -112,42 +111,7 @@
             </ul>
         </div>
     </div>
-    
-</div><!-- /.container -->
-<!-- Modal -->
-<div class="modal fade" id="support" role="dialog">
-    <div class="modal-center">
-        <div class="modal-dialog">
-            
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Связаться с нами</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="content-input">
-                        <p><input class="form-input" type="text" placeholder="Введите Ваше имя"></p>
-                            <p><input class="form-input" type="tel" placeholder="Введите Ваш телефон"></p>
-                                <p><input class="form-input" type="email" placeholder="Введите Вашу почту"></p>
-                                    <button class="load-photo">Прикрепить файл (если нужно)</button>
-                                    <p><textarea class="form-input" placeholder="Введите текст сообщения или вопроса" rows="4"></textarea></p>
-                                    </div>
-                </div>
-                <div class="modal-footer">
-                    <p><input class="input-submit" type="submit" value="Отправить"></p>
-                        <a href="javascript:" class="confidence"><span>Политика конфедициальности сайта</span></a>
-                        </div>
-            </div>
-            
-        </div>
-    </div>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/viewportchecker.js"></script>
+
 }
 
 #embed("common/base")
