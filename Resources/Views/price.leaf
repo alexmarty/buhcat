@@ -1,0 +1,269 @@
+#set("body") {
+<div class="container-2">
+    <div class="conteiner-banner conteiner-banner_cost">
+        <div class="w-main">
+            <div class="row row-banner">
+                <div class="col-md-12 col-xs-12">
+                    <h1 class="title-main title-main_cost">Сколько стоит <span>обслуживание Кот-Учет</span></h1>
+                    <div class="box-value">
+                        <p class="conteiner-banner__number">Количество человек в компании:<span id="people-val"> 13 чел.</span></p>
+                        <input type="range" class="range range-g-1" id="people" min="1" max="25" step="1" />
+                        <p class="conteiner-banner__number">Количество документов на 1 сотрудника в месяц:<span id="thing-val"> 30 шт.</span></p>
+                        <input type="range" class="range range-g-1" id="thing" min="1" max="60" step="1" />
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive table-cost">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th><span class="title-industry">Отрасль бизнеса:</span>
+                                <div class="dropdown dropdown-industry">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span data-bind="label" id="typeBusiness">Услуги</span>
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Услуги</a></li>
+                                        <li><a href="">Оптовая торговля</a></li>
+                                        <li><a href="">Розничная торговля</a></li>
+                                        <li><a href="">Производство</a></li>
+                                        <li><a href="">ВЭД</a></li>
+                                    </ul>
+                                </div>
+                            </th>
+                            <th><div class="">Тариф <span>Basic <span class="basic">18000₽</span></span></div></th>
+                            <th><div class="">Тариф <span>Standart <span class="standart">20000₽</span></span></div></th>
+                            <th><div class="">Тариф <span>Pro <span class="pro">27000₽</span></span></div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Формирование и сдача отчетности</td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Наличие 1С Базы и потдержка в актуальном состоянии</td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Обработка первичных документов</td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Расчет заработной платы сотрудников</td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Личный кабинет для работы в Базе 1С в режиме онлайн</td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Текущее ведение кадрового учета компании</td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Формирование первичных документов</td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td>Работа в клиент банка без права подписи и отправки платежей</td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-minus"></span></td>
+                            <td><span class="sumbol-plus">+</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="cost-services.html" class="btn btn-line">Подключиться</a></td>
+                            <td><a href="cost-services.html" class="btn btn-line">Подключиться</a></td>
+                            <td><a href="cost-services.html" class="btn btn-line">Подключиться</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cost-mobile">
+                <div class="cost-mobile_title">
+                    <span class="title-industry">Отрасль бизнеса:</span>
+                    <div class="dropdown dropdown-industry">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span data-bind="label" id="typeBusiness">Услуги</span>
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Услуги</a></li>
+                            <li><a href="">Оптовая торговля</a></li>
+                            <li><a href="">Розничная торговля</a></li>
+                            <li><a href="">Производство</a></li>
+                            <li><a href="">ВЭД</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cost-mobile_body">
+                    <div class="cost-mobile_div">
+                        <div class="cost_title">
+                            <p>Basic</p>
+                            <p><span class="basic">18000₽</span></p>
+                        </div>
+                        <div class="cost_body">
+                            <p>Включено в пакет:<br>
+                            - Формирование и сдача отчетности<br>
+                            - Наличие 1С Базы и потдержка в актуальном состоянии<br>
+                            - Обработка первичных документов<br>
+                            - Расчет заработной платы сотрудников</p>
+                        </div>
+                    </div>
+                    <div class="cost-mobile_div">
+                        <div class="cost_title">
+                            <p>Standart</p>
+                            <p><span class="standart">20000₽</span></p>
+                        </div>
+                        <div class="cost_body">
+                            <p>Включено в пакет:<br>
+                            - Формирование и сдача отчетности<br>
+                            - Наличие 1С Базы и потдержка в актуальном состоянии<br>
+                            - Обработка первичных документов<br>
+                            - Расчет заработной платы сотрудников<br>
+                            - Личный кабинет для работы в Базе 1С в режиме онлайн<br>
+                            - Текущее ведение кадрового учета компании</p>
+                        </div>
+                    </div>
+                    <div class="cost-mobile_div">
+                        <div class="cost_title">
+                            <p>Pro</p>
+                            <p><span class="pro">27000₽</span></p>
+                        </div>
+                        <div class="cost_body">
+                            <p>Включено в пакет:<br>
+                            - Формирование и сдача отчетности<br>
+                            - Наличие 1С Базы и потдержка в актуальном состоянии<br>
+                            - Обработка первичных документов<br>
+                            - Расчет заработной платы сотрудников<br>
+                            - Личный кабинет для работы в Базе 1С в режиме онлайн<br>
+                            - Текущее ведение кадрового учета компании<br>
+                            - Формирование первичных документов<br>
+                            - Работа в клиент банка без права подписи и отправки платежей</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-php">
+        <div class="w-main anim">
+            <p class="h2-title">Вы молодая компания-стартап? Хотите подключиться?</p>
+            <ul class="form-php_list">
+                <li><input class="form-php__input" type="text" placeholder="Название компании"></li>
+                <li><input class="form-php__input" type="tel" placeholder="Введите Ваш телефон"></li>
+                <li><input class="form-php__input" type="text" placeholder="Введите Ваше ФИО"></li>
+                <li><a href="javascript:" class="login form-php_btn">Перезвоните мне</a></li>
+            </ul>
+            
+            <div class="form-php_text">
+                <p>Звоните на <a href="#" target="_blank">8 800 200 30 12</a> или <a href="#" target="_blank">пишите в телеграм</a></p>
+                <p>Расскажем всё о Кот-Учете, посчитаем стоимость, подключим.</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-promo">
+        <div class="w-main">
+            <p class="h2-title">Специальные предложения<span> Компании</span></p>
+            <p class="description-after">Не нашли подходящий тариф? У нас есть особые цены для особенных компаний.</p>
+        </div>
+        <div class="block-country">
+            <div class="table-country table-left">
+                <div class="cell-country anim-right">
+                    <img class="bg-country" src="images/pic-04.jpg" alt="Picture">
+                        </div>
+                <div class="cell-country anim-left">
+                    <p><strong>Стартап - компания</strong>Собираетесь зарегистрировать компанию и начать официальное ведение бизнеса? Кот-Учет поможет Вам выбрать систему налогообложения. Вместе с Вами соберет необходимый пакет документов и передаст проверенному юристу. Ведение бухгалтерского учета начинается в день регистрации компании, а сдача первого отчета уже через месяц после регистрации… Но Вам не нужно об этом беспокоиться, ведь Кот-Учет берет всю бухгалтерию на себя. Кот-Учет- Ваша бухгалтерия в надежных руках.</p>
+                    <a href="cost-services.html" class="btn btn-line">Позвонить</a>
+                </div>
+            </div>
+            <div class="table-country table-right">
+                <div class="cell-country anim-right">
+                    <p><strong>Несколько компаний</strong>Передать ведение всех Ваших компаний в Кот-Учет  это: Первое - УДОБНО: Все компании будут у одного главного бухгалтера, который будет в курсе всех нюансов Вашего бизнеса. Вам не придется по нескольку раз объяснять одну и ту же ситуацию и несколько раз отправлять первичную документацию. Ваш главный бухгалтер всегда подскажет, как оптимизировать налоги используя систему холдинга и как правильно распределять налоговую нагрузку. Второе - ВЫГОДНО: Кот-Учет предоставляет скидку 20% на вторую и все следующие компании. </p>
+                    <a href="cost-services.html" class="btn btn-line">Позвонить</a>
+                </div>
+                <div class="cell-country anim-left">
+                    <img class="bg-country" src="images/pic-02.jpg" alt="Picture">
+                        </div>
+            </div>
+        </div>
+    </div>
+    
+</div><!-- /.container -->
+<!-- Modal -->
+<div class="modal fade" id="support" role="dialog">
+    <div class="modal-center">
+        <div class="modal-dialog">
+            
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Связаться с нами</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="content-input">
+                        <p><input class="form-input" type="text" placeholder="Введите Ваше имя"></p>
+                            <p><input class="form-input" type="tel" placeholder="Введите Ваш телефон"></p>
+                                <p><input class="form-input" type="email" placeholder="Введите Вашу почту"></p>
+                                    <button class="load-photo">Прикрепить файл (если нужно)</button>
+                                    <p><textarea class="form-input" placeholder="Введите текст сообщения или вопроса" rows="4"></textarea></p>
+                                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p><input class="input-submit" type="submit" value="Отправить"></p>
+                        <a href="javascript:" class="confidence"><span>Политика конфедициальности сайта</span></a>
+                        </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/viewportchecker.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+    function PeopleValue() {
+        var rPiece = document.getElementById("people").value;
+        var rPieceVal = document.getElementById("people-val");
+        rPieceVal.innerHTML = rPiece + "чел.";
+        testBlock.style.width = rPiece + "чел.";
+    }
+function ThingValue() {
+    var rPiece = document.getElementById("thing").value;
+    var rPieceVal = document.getElementById("thing-val");
+    rPieceVal.innerHTML = rPiece + "шт.";
+    testBlock.style.width = rPiece + "шт.";
+}
+</script>
+<script type="text/javascript">
+    $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+                          
+                          var $target = $( event.currentTarget );
+                          
+                          $target.closest( '.dropdown-industry' )
+                          .find( '[data-bind="label"]' ).text( $target.text() )
+                          .end()
+                          .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+                          return false;
+                          });
+    </script>
+}
+
+#embed("common/base")

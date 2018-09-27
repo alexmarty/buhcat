@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кот-Учет Бухгалтерские услуги</title>
+        #embed("common/head")
+    </head>
+    <body>
+        #embed("common/header")
+        #get(body)
+        #embed("common/footer")
+    </body>
+</html>
